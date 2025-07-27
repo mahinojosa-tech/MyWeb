@@ -4,25 +4,59 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mi Sitio Polivalente</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --color-bg: #f5f7fa;
+      --color-text: #333;
+      --color-primary: #007acc;
+      --color-accent: #00b3a4;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: sans-serif;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
       text-align: center;
-      padding: 50px;
-      background-color: #f9f9f9;
+      padding: 2rem;
     }
 
     h1 {
-      color: #007acc;
+      font-size: 3rem;
+      color: var(--color-primary);
+      margin-bottom: 1rem;
     }
 
     p {
+      font-size: 1.2rem;
       color: #555;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #999;
     }
   </style>
 </head>
 <body>
-  <h1>¡Bienvenido!</h1>
-  <p>Este sitio está listo para cuando decida qué contenido poner.</p>
+  <main>
+    <h1>¡Próximamente aquí...</h1>
+    <p>Un sitio lleno de ideas, proyectos y propósito.</p>
+  </main>
+  <footer>
+    &copy; 2025 mahinojosa-tech
+  </footer>
 </body>
 </html>
